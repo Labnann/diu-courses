@@ -1,0 +1,41 @@
+Basics of debugging
+
+Debugger?
+=========
+- Helps you execute your program line by line. Inspect the variable.
+   -- You can stop the program anywhere you want
+- C: gdb
+- python : pdb
+- JavaScript: browser based debugger / other
+Anyone can make a debugger. Just some standard ones
+are named here.
+
+
+- VScode/CodeBlocks: You can run debugger in them.
+
+gdb
+===
+-g flag?
+--------
+- Adds debug symbol
+-O0 flag?
+---------
+- No optimization
+
+
+....... Oversimplified Description......
+================commands================
+- l : list // shows the source
+- n : Execute next one line
+- r: run: runs the program
+- start: runs the program and stops at main
+- p: to see a value of a variable
+- b: breakpoint  usage: b function_name/// b lineNumber
+- d: delete breakpoint
+- c: continue
+- s: step
+- f: finish (get out of that function)
+
+
+ENVIRONMENT VARIABLE FOR YOUR ACCOUNT MUST BE SET PROPERLY INSIDE WINDOWS
+
